@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "src/popup/index.html"
   },
-  "options_page": "options.html",
+  "options_page": "src/options/index.html",
   "side_panel": {
-    "default_path": "sidebar.html"
+    "default_path": "src/sidepanel/index.html"
   },
   "background": {
     "service_worker": "background.js"
