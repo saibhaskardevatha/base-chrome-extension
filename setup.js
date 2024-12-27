@@ -32,7 +32,7 @@ async function main() {
         JSON.stringify(packageData, null, 2),
         'utf-8',
       )
-      console.log('✅ Updated package.json')
+      console.log('\n ✅ Updated package.json')
     }
 
     if (fs.existsSync(manifestPath)) {
@@ -44,7 +44,7 @@ async function main() {
         JSON.stringify(manifestData, null, 2),
         'utf-8',
       )
-      console.log('✅ Updated manifest.json')
+      console.log('\n ✅ Updated manifest.json')
     }
 
     console.log('\n🎉 Setup complete! Your Chrome Extension is ready.')
