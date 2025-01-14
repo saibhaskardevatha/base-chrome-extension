@@ -32,7 +32,7 @@
 
 ## Usage
 
-- `npm degit saibhaskardevatha/base-chrome-extension <your-extension-name>` - Clone the repository
+- `degit saibhaskardevatha/base-chrome-extension <your-extension-name>` - Clone the repository
 - `npm install` - Install the dependencies, update the name in `package.json` and `public/manifest.json`
 - `npm run build` - Build the extension
 - `chrome://extensions/` - Load the extension
